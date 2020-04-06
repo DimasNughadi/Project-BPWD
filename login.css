@@ -1,0 +1,45 @@
+body {
+    background-image: url("log1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.logo{
+    left: 50%;
+    text-align: center;
+}
+.container2{
+    width: 30%;
+    margin-top: 5%;
+    box-shadow: 0 3px 20px rgb(0, 0, 0);
+	background: linear-gradient(20deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) );
+    padding: 30px;
+    color: rgb(200, 200, 200);
+    border-radius: 5%;
+}
+.login-form .group .check:checked + label .icon:before{
+    transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+    transform:scale(1) rotate(-45deg);
+}
+h3{
+    text-align: center;
+    letter-spacing: 10px;
+}
+hr{
+    height: 4px;
+    width: 85%;
+    border: none;
+    background: linear-gradient(to right, rgb(200, 200, 200), rgb(20, 20, 20));
+
+}
+button{
+    width: 49%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+.daftar_member th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #d8aa46;
+    color: white;
+    font-size: 20px;
+  }
+  .daftar-member td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.daftar-member{
+    position: relative;
+    width: 100%;
+    border-color: transparent !important;
+    margin-top: 100px;
+}
